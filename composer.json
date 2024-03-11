@@ -1,0 +1,16 @@
+{
+    "name": "max144/mvc_auth",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxim Fadeev",
+            "email": "m.fadeev@geniusee.com"
+        }
+    ],
+    "require": {}
+}
