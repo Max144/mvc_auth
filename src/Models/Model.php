@@ -12,7 +12,7 @@ abstract class Model
     // by default, the fillable array is null so all properties are fillable
     protected ?array $fillable = null;
     protected string $table;
-    protected array $reservedFields = ['id', 'fillable', 'table', 'reservedFields'];
+    protected array $reservedFields = ['id', 'fillable', 'table', 'reservedFields', 'validationRules'];
     protected array $validationRules = [];
 
     public function __construct()
